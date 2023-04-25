@@ -1,0 +1,24 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.collapse ul {
+    margin: auto;
+}
+
+a {
+    font-weight: 500 !important;
+}
+
+@media (max-width: 992px) {
+    .menu {
+        display: contents;
+    }
+}
+
+@media (min-width: 992px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+}
