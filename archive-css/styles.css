@@ -82,6 +82,10 @@ p {
     transition: all 0.2s ease;
 }
 
+.proyect {
+    margin: 1rem;
+}
+
 @media (max-width: 992px) {
     .menu {
         display: contents;
