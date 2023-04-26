@@ -8,6 +8,8 @@ body {
 
 a {
     font-weight: 500 !important;
+    text-decoration: none;
+    color: black;
 }
 
 #section-cv {
@@ -58,8 +60,26 @@ p {
     background-color: gainsboro;
 }
 
+#proyect {
+    padding: 3rem;
+}
+
 .image-studies {
     width: 20rem;
+}
+
+.image-proyect {
+    width: 15rem;
+    align-self: center;
+}
+
+.card {
+    width: 20rem;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgb(92, 94, 94);
+    transition: all 0.2s ease;
 }
 
 @media (max-width: 992px) {
