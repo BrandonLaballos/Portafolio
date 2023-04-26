@@ -35,6 +35,14 @@ p {
     font-weight: 300;
 }
 
+#about-me {
+    padding: 3rem;
+}
+
+.image-porfile {
+    border-radius: 50px;
+    width: 20rem;
+}
 
 @media (max-width: 992px) {
     .menu {
