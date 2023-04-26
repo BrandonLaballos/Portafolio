@@ -44,6 +44,24 @@ p {
     width: 20rem;
 }
 
+#studies {
+    padding: 3rem;
+    background-color: gainsboro;
+}
+
+.accordion-item {
+    background-color: gainsboro;
+    border-color: black;
+}
+
+.accordion-button {
+    background-color: gainsboro;
+}
+
+.image-studies {
+    width: 20rem;
+}
+
 @media (max-width: 992px) {
     .menu {
         display: contents;
