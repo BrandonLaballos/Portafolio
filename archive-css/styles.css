@@ -1,5 +1,25 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.nav-main {
+    background-color: #121c1d !important;
+    margin: 0;
+    padding: 1rem;
+}
+
+.nav-main a {
+    color: #f8f8f8;
+    font-size: 1.3rem;
+}
+
+.nav-main button {
+    background-color: #f8f8f8;
+}
+
+.nav-main a:hover {
+    color: #f8f8f8;
 }
 
 .collapse ul {
@@ -9,73 +29,133 @@ body {
 a {
     font-weight: 500 !important;
     text-decoration: none;
-    color: black;
 }
 
 #section-cv {
-    background-color: gainsboro;
-    padding: 3rem;
+    background-color: #121c1d;
+    padding: 5rem;
+}
+
+#section-cv h1 {
+    color: #f8f8f8;
+    font-size: 4rem;
+}
+
+#section-cv p {
+    color: #f8f8f8;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .button-cv {
-    background-color: rgb(54, 2, 61);
-    color: white;
-    width: 7rem;
-    font-weight: 300;
+    background-color: #334c57;
+    color: #f8f8f8;
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
     border: 0;
     border-radius: 36px;
 }
 
 .button-cv:hover {
-    background-color: rgb(54, 2, 61);
-    color: white;
+    background-color: #334c57;
+    color: #f8f8f8;
     box-shadow: 0 4px 16px rgb(92, 94, 94);
-    transition: all 0.2s ease;
-}
-
-p {
-    font-weight: 300;
+    transition: all 0.5s ease;
 }
 
 #about-me {
-    padding: 3rem;
+    background-color: #f8f8f8;
+    padding: 5rem;
+}
+
+#about-me h3 {
+    color: #121c1d;
+    font-size: 2.3rem;
+}
+
+#about-me p {
+    color: #121c1d;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .image-porfile {
-    border-radius: 50px;
+    box-shadow: 0 4px 16px rgb(92, 94, 94);
+    border-radius: 150px;
     width: 20rem;
 }
 
 #studies {
-    padding: 3rem;
-    background-color: gainsboro;
+    padding: 5rem;
+    background-color: #121c1d;
+}
+
+#studies h3 {
+    color: #f8f8f8;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1.4rem;
+}
+
+#studies button {
+    color: #f8f8f8;
+    font-size: 1.3rem;
+}
+
+#studies p {
+    color: #f8f8f8;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.image-studies {
+    width: 20rem;
 }
 
 .accordion-item {
-    background-color: gainsboro;
-    border-color: black;
+    background-color: #121c1d;
+    border-color: #f8f8f8;
 }
 
 .accordion-button {
-    background-color: gainsboro;
+    background-color: #121c1d;
+    color: #f8f8f8;
+}
+
+.accordion-button:focus {
+    color: #f8f8f8;
+    background-color: #121c1d;
 }
 
 #proyect {
-    padding: 3rem;
+    background-color: #f8f8f8;
+    padding: 5rem;
+}
+
+#proyect h3 {
+    color: #121c1d;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#proyect p {
+    color: #121c1d;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .display-proyect a {
+    color: #121c1d;
     font-size: 1.1rem;
     margin: 1rem;
 }
 
 .display-proyect i {
+    color: #121c1d;
     font-size: 1.4rem;
     margin: 0.3rem;
-}
-
-.image-studies {
-    width: 20rem;
 }
 
 .image-proyect {
@@ -84,7 +164,10 @@ p {
 }
 
 .card {
-    width: 20rem;
+    width: 23rem;
+    margin: 4rem;
+    border-color: #121c1d;
+    border-width: 0.2rem;
 }
 
 .card:hover {
@@ -92,23 +175,43 @@ p {
     transition: all 0.2s ease;
 }
 
-.proyect {
-    margin: 1rem;
+.card h5 {
+    color: #121c1d;
+    font-size: 1.3rem;
+}
+
+.card p {
+    color: #121c1d;
+    font-weight: 300;
 }
 
 footer {
-    background-color: gainsboro;
-    padding: 3rem;
+    background-color: #121c1d;
+    padding: 4rem;
 }
 
 footer i {
+    color: #f8f8f8;
     font-size: 1.4rem;
     margin: 0.3rem;
 }
 
 footer a {
+    color: #f8f8f8;
     font-size: 1.1rem;
     margin: 1rem;
+}
+
+footer h3 {
+    color: #f8f8f8;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+footer p {
+    color: #f8f8f8;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 @media (max-width: 992px) {
