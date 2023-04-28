@@ -44,7 +44,7 @@
                           </li>
                            </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Contactos</a>
+                            <a class="nav-link" href="#contact">Contactos</a>
                           </li>
                         </ul>
                       </div>
@@ -66,10 +66,10 @@
       </section>
       <section id="about-me" class="container-fluid text-center">
         <section class="row">
-          <section class="col-6">
+          <section class="col-6 d-none d-md-block">
             <img src="../images/img-porfile.jpg" alt="image-porfile" class="image-porfile">
           </section>
-          <section class="col-6 align-self-center">
+          <section class="col-md-6 col-sm-12 align-self-center">
             <h3>Sobre mí</h3>
             <p>
               Estudiante de la <strong>Universidad Tecnológica Nacional</strong> (UTN). Actualmente siguiendo la carrera de Ingenieria en Sistemas y, a su vez, desarrollándome como Diseñador de Páginas Web. <br><br>
@@ -81,7 +81,7 @@
       <!--Section studies-->
       <section id="studies" class="container-fluid text-center">
         <section class="row">
-          <section class="col-6 align-self-center">
+          <section class="col-md-6 col-sm-12 align-self-center">
             <h3>Estudios</h3>
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
@@ -124,7 +124,7 @@
               </div>
             </div>
           </section>
-          <section class="col-6">
+          <section class="col d-none d-md-block">
             <img src="../images/img-studies.jpg" alt="image-studies" class="image-studies">
           </section>
         </section>
@@ -137,12 +137,17 @@
             <p>Estos son mis proyectos personales. <br>
               Cada una de estas tarjetas los dirigirá hacia sus respectivos repositorios en Github</p>
           </section>
+          <section class="col-12 d-md-block d-lg-none display-proyect text-center">
+            <a href="https://github.com/BrandonLaballos/NuestroProyecto.git" target="_blank"><i class="bi bi-github"></i>ARGENTINA PROGRAMA 4.0</a>
+            <a href="https://github.com/BrandonLaballos/Portafolio.git" target="_blank"><i class="bi bi-github"></i>PORTAFOLIO</a>
+          </section>
+          <section class="col-12 d-md-none d-lg-block">
             <div class="row row-cols-4 justify-content-center">
               <div class="col proyect">
                 <div class="card" style="margin-left: 1rem;">
                   <img src="../images/img-proyect.png" class="card-img-top image-proyect" alt="img-proyect-1">
                   <div class="card-body">
-                    <a href="#">
+                    <a href="https://github.com/BrandonLaballos/NuestroProyecto.git" target="_blank">
                       <h5 class="card-title">ARGENTINA PROGRAMA 4.0</h5>
                     </a>
                     <p class="card-text">
@@ -156,7 +161,7 @@
                 <div class="card" style="margin-left: 1rem;">
                   <img src="../images/img-proyect.png" class="card-img-top image-proyect" alt="img-proyect">
                   <div class="card-body">
-                    <a href="#">
+                    <a href="https://github.com/BrandonLaballos/Portafolio.git" target="_blank">
                       <h5 class="card-title">PORTAFOLIO</h5>
                     </a>
                     <p class="card-text">
@@ -167,6 +172,7 @@
                 </div>
               </div>
             </div>
+          </section>
         </section>
       </section>
     </main>

@@ -64,6 +64,16 @@ p {
     padding: 3rem;
 }
 
+.display-proyect a {
+    font-size: 1.1rem;
+    margin: 1rem;
+}
+
+.display-proyect i {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+}
+
 .image-studies {
     width: 20rem;
 }
