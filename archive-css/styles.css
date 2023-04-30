@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #f8f8f8;
@@ -56,6 +62,7 @@ a {
     font-weight: 500;
     border: 0;
     border-radius: 36px;
+    transition: all 0.5s ease;
 }
 
 .button-cv:hover {
@@ -111,7 +118,7 @@ a {
 }
 
 .image-studies {
-    width: 20rem;
+    width: 30rem;
 }
 
 .accordion-item {
@@ -168,6 +175,8 @@ a {
     margin: 4rem;
     border-color: #121c1d;
     border-width: 0.2rem;
+    border-radius: 36px;
+    max-width: 30rem;
 }
 
 .card:hover {
