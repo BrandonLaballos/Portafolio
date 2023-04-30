@@ -39,6 +39,7 @@ a {
 
 #section-cv {
     background-color: #121c1d;
+    background: linear-gradient(to bottom, #121c1d, #334c57);
     padding: 5rem;
 }
 
@@ -54,7 +55,7 @@ a {
 }
 
 .button-cv {
-    background-color: #334c57;
+    background-color: #121c1d;
     color: #f8f8f8;
     height: 2.5rem;
     width: 8rem;
@@ -66,9 +67,9 @@ a {
 }
 
 .button-cv:hover {
-    background-color: #334c57;
+    background-color: #121c1d;
     color: #f8f8f8;
-    box-shadow: 0 4px 16px rgb(92, 94, 94);
+    box-shadow: 0 4px 16px rgb(233, 233, 233);
     transition: all 0.5s ease;
 }
 
@@ -196,6 +197,7 @@ a {
 
 footer {
     background-color: #121c1d;
+    background: linear-gradient(to top, #121c1d, #334c57);
     padding: 4rem;
 }
 
@@ -209,6 +211,10 @@ footer a {
     color: #f8f8f8;
     font-size: 1.1rem;
     margin: 1rem;
+}
+
+footer hr {
+    color: #f8f8f8;
 }
 
 footer h3 {
